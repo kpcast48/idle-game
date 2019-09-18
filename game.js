@@ -17,13 +17,13 @@ function btnPress(){
   score-
   postToPage(score);
   }
+ 
+  createButton('cat')
+if(score<20);
 }
 
-{
-createButton('cat')
-if(score>20)
-then (change button Button 'cat')
 
 
 
-}
+
+
