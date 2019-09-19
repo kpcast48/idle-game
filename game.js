@@ -1,27 +1,35 @@
 var score = 1; // Create a variable to store the score in
 
 var title = new Title('Welcome to the Game'); // Create a title element
-var button = new Button('hello', btnPress);   // Create a button element
+var button = new Button('carrots', btnPress);   // Create a button element
 var scr = new Text(score);                    // Create a text element
 
-createButton('Bunnies', btnPress); // Make a button
-changeTitle('Clicker Game');
-val(btnPress, 1000);
+setInterval(btnPress, 1000);   // Set up a loop
 
-setInter
 function btnPress() {
-  score++;
-  postToPage(score);
+  score++;         // Increase the score
+  scr.edit(score); // Update the page with the new score
  
-createButton('Bunny', btnPress); // Make a button
+ var button = new Button('Bunny', btnPress);// Create a button element
 
 function btnPress(){
-  score-
+  score--;
   postToPage(score);
-  }
+
+  
+
+}
+  
+
+  
+  
  
-  createButton('cat')
-if(score<20);
+
+
+
+
+  
+ 
 }
 
 
