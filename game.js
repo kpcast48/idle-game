@@ -2,7 +2,7 @@ var score = 0; // Create a variable to store the score in
 
 var title = new Title('Welcome to the Game'); // Create a title element
 var woodbutton = new Button('Wood', btnPress);   
-var carrotsbutton = new Button('carrots', btnPress);
+var carrotsbutton = new Button('carrots',increasescore);
 var carrots = o;
 var carrotcount 
 var Strawberriesbutton = new Button('strawberries', btnPress);
