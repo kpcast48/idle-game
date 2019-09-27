@@ -2,8 +2,8 @@ var score = 0; // Create a variable to store the score in
 
 var title = new Title('Elysia Village'); // Create a title element
 var moneybutton = new Button('Money: ' + score);   
-var Sellbutton = new Button('Sell');   
-var carrotsbutton = new Button('carrots',btnPress);
+var Sellbutton = new Button('Sell', btnPress);   
+var carrotsbutton = new Button('carrots:'+ addcarrots);
 var carrots = 0;
 var carrotscount 
 
@@ -11,7 +11,7 @@ var strawberriesbutton = new Button('strawberries', btnPress);
 var strawberry = 0;
 var strawberriescount 
 
-var wheatbutton = new Button('wheat',btnPress);
+var wheatbutton = new Button('wheat'+ btnpress);
 var wheat= 0;
 var wheatcount 
 
@@ -30,16 +30,16 @@ function btnPress() {
   score++;         // Increase the score
   moneybutton.edit("Money: " + score); // Update the page with the new score
 //materials section
+}
+var loop = setInterval(createButton, 1000); // Run the "createButton" function once every 1000 milliseconds (once every second)
 
-let score = 0; //Declare the data structure before using it!
-
-let Sellbutton = new Button('Click me to sell!', scoreIncrease); // Run the "score" function when you click the button
-
-// Don't forget to define the function!
-function scoreIncrease() {
-  score++;
+function createButton() {
+  let titlebutton = new Button('Welcome to Elysia Village!');
 }
 
+function stopLoop() {
+  clearInterval(loop);
+}
   let mySection = new Section();
    var carrotsbutton = new Button('carrots');
   var strawberriesbutton = new Button('strawberries');
@@ -49,11 +49,14 @@ function scoreIncrease() {
 
   var buttonSection = new Section();
 
-
+function addcarrots(){
 
 
 
 }
+
+
+
 
 
 
